@@ -24,7 +24,7 @@ namespace WorkWithDTO.Service
                 IssueDate = b.IssueDate,
                 DaysOverdue = (DateTime.Now - b.IssueDate).Days
             }).ToList(); 
-        }
+        } 
         
 
         public ActionResult AddBook(BookDTO bookDTO)
