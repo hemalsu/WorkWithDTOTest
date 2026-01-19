@@ -23,7 +23,7 @@ namespace WorkWithDTO.Service
                 Author = b.Author,
                 IssueDate = b.IssueDate,
                 DaysOverdue = (DateTime.Now - b.IssueDate).Days
-            }).ToList();
+            }).ToList(); 
         }
         
 
