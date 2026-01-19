@@ -6,7 +6,7 @@ using WorkWithDTO.Model.Data;
 
 namespace WorkWithDTO.Service
 {
-    public class BookService : IBookService
+    public class BookService : IBookService 
     {
         public IBookRepository _bookRepository;
         public BookService(IBookRepository bookRepository)
