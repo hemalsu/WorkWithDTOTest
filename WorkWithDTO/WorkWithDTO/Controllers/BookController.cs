@@ -16,7 +16,7 @@ namespace WorkWithDTO.Controllers
         public BookController(IBookService bookService, ILogger<BookController> logger)
         {
             _bookService = bookService;
-            _logger = logger;
+            _logger = logger; 
         }
 
         [HttpGet]
