@@ -1,0 +1,6 @@
+@WorkWithDTO_HostAddress = http://localhost:5166
+
+GET {{WorkWithDTO_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
